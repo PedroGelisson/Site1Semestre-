@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*header------------------------*/
+#logo,header{
+    position: fixed;
+    width: 100vw;
+    height:100px;
+    background-image:linear-gradient(to left,  #000,#3023f8,#000);
+    text-align: center;
+    text-shadow: #fff 3px 3px 3px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#titulo a{
+    font-size: 8vh;
+    text-decoration-line: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(210, 105, 30);
+}
+/*menu--------------------------*/
+
+#menu{
+    margin-top: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content:space-around;
+    background-color: #000;
+    height: 40px;
+    align-items: center;
+    position: fixed;   
+}
+#menu a{
+    text-decoration: none;
+    color: #fff;
+    padding:2vh;
+}
+#menu a:hover{
+    background-color: #3023f8;
+    color: rgb(210, 105, 30);
+}
+/*banner-------10--------------------*/
+#banner{
+    margin-top: 140px;
+    width: 100vw;
+    height:150px;
+}
+#gif-banner{
+    width: 100vw;
+    height: 150px;
+}
+/*conteudo principal---------------*/
+main{
+    width: 100%;
+    max-height: max-content;
+    
+}
+#principal{
+    float: left;
+    width:80%;
+    margin-bottom: 10vh;
+}
+
+#wall-main{
+   width: 80%;
+   margin-left: 30%;
+   margin-bottom: 3vh;
+   margin-top: 3vh;
+}
+#img-main{
+    width: 70%;
+    
+}
+#conteudo-home{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    margin-top:10px ;
+    width: 90%;
+    margin-left: 5vw;
+}
+#curio{
+    margin-bottom: 10vh;
+    margin-top: 150px;
+    float: left;
+    width: 80%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+#list-curio{
+    width: 85%;
+    margin-left: 5vw;
+}
+#curio h2{
+    text-align: center;
+}
+#img1c{
+    width:70%;
+    margin-left: 15%;
+}
+#infotec{
+    margin-bottom: 10vh;
+    margin-top: 150px;
+    float: left;
+    width: 80%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+#linha1{
+    background-color:#1ebcec;
+    color: #000;
+    list-style: none;
+}
+#linha2{
+    list-style: none;
+}
+#tipo{
+    list-style: none;
+    background-color: #3023f8;
+    color: #fff;
+}
+#tit-info{
+    text-align: center;
+}
+#tipos{
+    margin-top: 1vh;
+    margin-left: 5vw;
+    width:90% ;
+}
+#gal{
+    text-align: center;
+    margin-bottom: 10vh;
+    margin-top: 150px;
+    float: left;
+    width: 80%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+#fotos{
+    width: 70%;
+    
+}
+#img-gal{
+    width: 100%;
+   
+}
+
+/*secundario-------------------------*/
+#secundario-c{
+    margin-top: 160px;
+	width:20%;
+    float: left;
+    max-height:max-content;
+    	
+}
+#secundario{
+    margin-top: 350px;
+	width:20%;
+    float: left;
+    max-height:max-content;
+    
+}
+.links{
+    margin-left: 1vw;
+
+}
+ul li{
+    padding: 0.6rem;
+    margin-left: 2vw;
+
+}
+
+
+/*rodape-------------------------------*/
+footer{
+	clear: both;
+	width:100vw;
+	height:100px;
+	background-color:#000;
+    opacity: 0.9;
+    color: #fff;
+ 	text-align: center;
+	padding: 0;
+}
+footer .rodape {
+	font-size: 15px;
+	padding-top: 25px;
+}
+
+
+
